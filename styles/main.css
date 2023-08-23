@@ -1,0 +1,334 @@
+/* basic styles for every page */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #3d3d3d;
+}
+
+body {
+	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
+}
+
+/* Navigation Menu */
+#mobile_menu {
+	display: none;
+}
+
+#nav_menu {
+	padding-bottom: 51px;
+	padding-left: 1.35em;
+	padding-right: 1.35em;
+	background-color: #a00000;
+}
+
+#nav_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-size: 12pt;
+	
+}
+
+#nav_menu ul li {
+	float: left;
+	width: 20%;
+	background-color: #a00000;
+}
+
+#nav_menu ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: white;
+}
+
+#nav_menu ul div li {
+	text-align: center;
+	width: 100%;
+}
+
+#nav_menu ul li a.current {
+	color: #FFFFFF;
+}
+
+a:hover, a:focus {
+	font-style: italic;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 20%;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #c00000;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+	top: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Basic Elements */
+h1 {
+	text-align: center;
+	color: white;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	padding-bottom: 4em;
+}
+
+h3 {
+	color: white;
+	padding-bottom: 1em;
+}
+
+ul {
+	list-style: none;
+	padding-bottom: 1em;
+	color: white;
+	font-size: 16pt;
+}
+
+/* Section Styles */
+section {
+	background-color: #505050;
+	text-align: center;
+}
+
+section p {
+	color: white;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1em;
+	font-size: 16pt;
+}
+
+section .heading {
+	width: 50%;
+}
+
+section h2 {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+section img {
+	width: 300px;
+	padding-bottom: 2em;
+	transition: 0.5s;
+}
+
+#play {
+	padding-top: 3em;
+}
+
+#play a {
+	color: white;
+}
+
+#list img {
+	padding-top: 2em;
+	height: 100px;
+	width: auto;
+}
+
+#list h2 {
+	padding-top: 0px;
+	padding-bottom: 1em;
+}
+
+#list {
+	padding-top: 3em;
+}
+
+/* Div Styles */
+.container {
+	width: 100%;
+	background-color: #505050;
+	display: flex;
+	flex-direction: row;
+}
+
+.row {
+	width: 50%;
+	float: left;
+	text-align: center;
+	background-color: #505050;
+	padding-bottom: 1em;
+	height: 100%;
+	box-sizing: border-box;
+	flex-grow: 1;
+}
+
+/* Button Styles*/
+button {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	background-color: #505050;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #a00000;
+}
+
+button a {
+	color: white;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+button a:hover {
+	font-style: normal;
+}
+
+/* Footer Styles */
+footer {
+	background-color: #a00000;
+	text-align: center;
+	color: white;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/* Etc Styles */
+.lp:hover {
+	opacity: 0.75;
+}
+
+.img img {
+	width: 540px;
+}
+
+#social {
+	color: white;
+	text-decoration: none;
+}
+
+#youtube:hover {
+	content: url("../images/social/youtube-after.png");
+}
+
+#twitter:hover {
+	content: url("../images/social/twitter-after.png");
+}
+
+#twitch:hover {
+	content: url("../images/social/twitch-after.png");
+}
+
+section .schedule {
+	padding-bottom: 0px;
+	padding-top: 1em;
+}
+
+@media only screen and (max-width: 959px) {
+	.container {
+		flex-direction: column;
+	}
+	
+	.row {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 85%;
+	}
+	
+	#nav_menu {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	#nav_menu ul li {
+		width: 100%;
+	}
+	
+	#nav_menu ul .dropdown {
+		width: 100%;
+	}
+	
+	.dropdown-content {
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	
+	#nav_menu .dropdown-content ul {
+		width: auto;
+		margin: auto;
+	}
+	
+	h1 {
+		clear: both;
+	}
+	
+	section p {
+		font-size: 125%;
+	}
+	
+	ul li {
+		font-size: 85%;
+	}
+	
+	section img {
+		height: 200px;
+		width: auto;
+	}
+	
+	.img img {
+		width: auto;
+	}
+	
+	#list img {
+		height: 50px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	body {
+		font-size: 110%;
+	}
+	
+	section p {
+		font-size: 110%;
+	}
+	
+	ul li {
+		font-size: 100%;
+	}
+}

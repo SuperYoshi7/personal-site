@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jacob "SuperYoshi" Moulton</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<link id="pagestyle" rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){$('#nav_menu').slicknav({prependTo:"#mobile_menu"});});
+		</script>
+		<script type="text/javascript">
+			function swapStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<div class="dropdown">
+					<li><a href="play.html">Let's Plays</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/playlist?list=PLpN_E--or1v_KukHZOm5rUEzRwa759ZQN">Current Let's Play</a></li>
+							<li><a href="past.html">Past Games</a></li>
+							<li><a href="possible.html">Possible Games</a></li>
+							<li><a href="list.html">List of Games</a></li>
+							<li><a href="kit.html">Current Kit List</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="vlog.html">Vlog</a></li>
+				<li><a class="current" href="index.html">Jacob "SuperYoshi" Moulton</a></li>
+				<div class="dropdown">
+					<li><a href="social.html">Social Links</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/@superyoshi7777" target="_blank">YouTube</a></li>
+							<li><a href="https://www.youtube.com/@superyoshi77772" target="_blank">2nd YouTube (Stream VODs)</a></li>
+							<li><a href="https://twitter.com/SuperYoshi7777" target="_blank">Twitter</a></li>
+							<li><a href="https://www.twitch.tv/originalsuperyoshi" target="_blank">Twitch</a></li>
+							<li><a href="other.html">Other Things I've Made</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>My name is Jacob Moulton</h1>
+			<h2>I'm a website developer and video creator.</h2>
+		</header>
+		<section class="img">
+			<div class="container">
+				<div class="row">
+					<h2>Let's Plays</h2>
+					<a href="past.html"><img class="lp" src="images/header-bg.jpg"></a>
+					<p>In my spare time, I record what is known as Let's Plays. A Let's Play is simply playing video games while
+					   providing commentary (usually about the game.) So far I've finished 7 of these with the 8th started. If you
+					   want to know more about the games I've played, check out the Past Games page.</p>
+					<button type="button"><a href="https://www.youtube.com/@superyoshi7777">Watch on Youtube</a></button>
+				</div>
+				<div class="row">
+					<h2>Web Developer</h2>
+					<img src="images/delta.png">
+					<p>
+						I went to college for website development and currently have an Associates' degree, and want to eventually work 
+						towards a Bachelor's in website development. I went to Delta College in Michigan for three years, the first being 
+						me trying to figure out a degree I wanted to go for and the other two was me quite slowly finishing this degree.
+					</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2023</p>
+		</footer>
+	</body>
+	
+</html>
