@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Social Links</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<link id="pagestyle" rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){$('#nav_menu').slicknav({prependTo:"#mobile_menu"});});
+		</script>
+		<script type="text/javascript">
+			function swapStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<div class="dropdown">
+					<li><a class="current" href="play.html">Let's Plays</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/playlist?list=PLpN_E--or1v_KukHZOm5rUEzRwa759ZQN">Current Let's Play</a></li>
+							<li><a href="past.html">Past Games</a></li>
+							<li><a href="possible.html">Possible Games</a></li>
+							<li><a href="list.html">List of Games</a></li>
+							<li><a href="kit.html">Current Kit List</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="vlog.html">Vlog</a></li>
+				<li><a href="index.html">Jacob "SuperYoshi" Moulton</a></li>
+				<div class="dropdown">
+					<li><a class="current" href="social.html">Social Links</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/@superyoshi7777" target="_blank">YouTube</a></li>
+							<li><a href="https://www.youtube.com/@superyoshi77772" target="_blank">2nd YouTube (Stream VODs)</a></li>
+							<li><a href="https://twitter.com/SuperYoshi7777" target="_blank">Twitter</a></li>
+							<li><a href="https://www.twitch.tv/originalsuperyoshi" target="_blank">Twitch</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>Social Links</h1>
+		</header>
+		<section>
+			<div class="container">
+				<div class="row">
+					<h2><a href="https://www.youtube.com/@superyoshi7777" id="social">YouTube</a></h2>
+					<a href="https://www.youtube.com/@superyoshi7777"><img id="youtube" src="images/social/youtube-before.png"></a>
+					<br>
+					<button type="button"><a href="https://www.youtube.com/@superyoshi7777">YouTube</a></button>
+				</div>
+				<div class="row">
+					<h2><a href="https://www.youtube.com/@superyoshi77772" id="social">Stream Archive</a></h2>
+					<a href="https://www.youtube.com/@superyoshi77772"><img id="youtube" src="images/social/youtube-before.png"></a>
+					<br>
+					<button type="button"><a href="https://www.youtube.com/@superyoshi77772">Stream Archive</a></button>
+				</div>
+				<div class="row">
+					<h2><a href="https://twitter.com/SuperYoshi7777" id="social">Twitter</a></h2>
+					<a href="https://twitter.com/SuperYoshi7777"><img id="twitter" src="images/social/twitter-before.png"></a>
+					<br>
+					<button type="button"><a href="https://twitter.com/SuperYoshi7777">Twitter</a></button>
+				</div>
+				<div class="row">
+					<h2><a href="https://www.twitch.tv/originalsuperyoshi" id="social">Twitch</a></h2>
+					<a href="https://www.twitch.tv/originalsuperyoshi"><img id="twitch" src="images/social/twitch-before.png"></a>
+					<br>
+					<button type="button"><a href="https://www.twitch.tv/originalsuperyoshi">Twitch</a></button>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2023</p>
+		</footer>
+	</body>
+	
+</html>

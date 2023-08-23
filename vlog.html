@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Vlogs</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<link id="pagestyle" rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){$('#nav_menu').slicknav({prependTo:"#mobile_menu"});});
+		</script>
+		<script type="text/javascript">
+			function swapStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<div class="dropdown">
+					<li><a class="current" href="play.html">Let's Plays</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/playlist?list=PLpN_E--or1v_KukHZOm5rUEzRwa759ZQN">Current Let's Play</a></li>
+							<li><a href="past.html">Past Games</a></li>
+							<li><a href="possible.html">Possible Games</a></li>
+							<li><a href="list.html">List of Games</a></li>
+							<li><a href="kit.html">Current Kit List</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a class="current" href="vlog.html">Vlog</a></li>
+				<li><a href="index.html">Jacob "SuperYoshi" Moulton</a></li>
+				<div class="dropdown">
+					<li><a href="social.html">Social Links</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/@superyoshi7777" target="_blank">YouTube</a></li>
+							<li><a href="https://www.youtube.com/@superyoshi77772" target="_blank">2nd YouTube (Stream VODs)</a></li>
+							<li><a href="https://twitter.com/SuperYoshi7777" target="_blank">Twitter</a></li>
+							<li><a href="https://www.twitch.tv/originalsuperyoshi" target="_blank">Twitch</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>Vlogs</h1>
+		</header>
+		<section class="img">
+			<div class="container">
+				<div class="row">
+					<h2>Latest Vlog</h2>
+					<a href="https://youtu.be/TOlqMc0akJE"><img class="lp" src="images/vlog.png"></a>
+					<br>
+					<button type="button"><a href="https://youtu.be/TOlqMc0akJE">Watch on Youtube</a></button>
+				</div>
+				<div class="row">
+					<h2>Vlog Playlist</h2>
+					<a href="https://www.youtube.com/playlist?list=PLpN_E--or1v9vGvIsDnKrg3P-CDOu5OTZ"><img class="lp" src="images/vlog.png"></a>
+					<br>
+					<button type="button"><a href="https://www.youtube.com/playlist?list=PLpN_E--or1v9vGvIsDnKrg3P-CDOu5OTZ">Watch on Youtube</a></button>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2023</p>
+		</footer>
+	</body>
+	
+</html>

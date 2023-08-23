@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Possible Let's Plays</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<link id="pagestyle" rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){$('#nav_menu').slicknav({prependTo:"#mobile_menu"});});
+		</script>
+		<script type="text/javascript">
+			function swapStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<div class="dropdown">
+					<li><a class="current" href="play.html">Let's Plays</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/playlist?list=PLpN_E--or1v_KukHZOm5rUEzRwa759ZQN">Current Let's Play</a></li>
+							<li><a href="past.html">Past Games</a></li>
+							<li><a  class="current" href="possible.html">Possible Games</a></li>
+							<li><a href="list.html">List of Games</a></li>
+							<li><a href="kit.html">Current Kit List</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="vlog.html">Vlog</a></li>
+				<li><a href="index.html">Jacob "SuperYoshi" Moulton</a></li>
+				<div class="dropdown">
+					<li><a href="social.html">Social Links</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/@superyoshi7777" target="_blank">YouTube</a></li>
+							<li><a href="https://www.youtube.com/@superyoshi77772" target="_blank">2nd YouTube (Stream VODs)</a></li>
+							<li><a href="https://twitter.com/SuperYoshi7777" target="_blank">Twitter</a></li>
+							<li><a href="https://www.twitch.tv/originalsuperyoshi" target="_blank">Twitch</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>Possible Let's Plays</h1>
+		</header>
+		<section id="play">
+			<p class="heading">
+				I currently have a short list of games I want to LP in the near future and a decent list of games that I want to LP in general. 
+				Here's the lists and if this community gets big enough, I may hold voting to decide what gets played and when.
+			</p>
+			<div class="container">
+				<div class="row">
+					<h2>Near Future Games</h2>
+					<ul>
+						<li>Pok&eacute;mon Gold/Silver/Crystal</li>
+						<li>Pikmin 2</li>
+						<li>Super Mario 64</li>
+						<li>The Legend of Zelda: A Link to the Past</li>
+					</ul>
+				</div>
+				<div class="row">
+					<h2>Eventual Games</h2>
+					<ul>
+						<li>Super Mario Galaxy 2</li>
+						<li>inFamous: Second Son</li>
+						<li>Donkey Kong Country Returns</li>
+						<li>Ratchet &amp; Clank (PS4)</li>
+						<li>Yakuza 0</li>
+						<li>Kid Icarus</li>
+						<li>Mario &amp; Luigi: Superstar Saga</li>
+						<li>Luigi's Mansion</li>
+						<li>Portal</li>
+						<li>Jet Set Radio Future</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2023</p>
+		</footer>
+	</body>
+	
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>About</title>
+		<link rel="shortcut icon" href="images/icon.png">
+		<link id="pagestyle" rel="stylesheet" type="text/css" href="styles/main.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){$('#nav_menu').slicknav({prependTo:"#mobile_menu"});});
+		</script>
+		<script type="text/javascript">
+			function swapStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+			}
+		</script>
+	</head>
+	
+	<body>
+		<nav id="mobile_menu"></nav>
+		<nav id="nav_menu">
+			<ul>
+				<div class="dropdown">
+					<li><a class="current" href="play.html">Let's Plays</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/playlist?list=PLpN_E--or1v_KukHZOm5rUEzRwa759ZQN">Current Let's Play</a></li>
+							<li><a href="past.html">Past Games</a></li>
+							<li><a href="possible.html">Possible Games</a></li>
+							<li><a href="list.html">List of Games</a></li>
+							<li><a href="kit.html">Current Kit List</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a href="vlog.html">Vlog</a></li>
+				<li><a href="index.html">Jacob "SuperYoshi" Moulton</a></li>
+				<div class="dropdown">
+					<li><a href="social.html">Social Links</a></li>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="https://www.youtube.com/@superyoshi7777" target="_blank">YouTube</a></li>
+							<li><a href="https://www.youtube.com/@superyoshi77772" target="_blank">2nd YouTube (Stream VODs)</a></li>
+							<li><a href="https://twitter.com/SuperYoshi7777" target="_blank">Twitter</a></li>
+							<li><a href="https://www.twitch.tv/originalsuperyoshi" target="_blank">Twitch</a></li>
+						</ul>
+					</div>
+				</div>
+				<li><a class="current" href="about.html">About</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>About</h1>
+		</header>
+		<section>
+			<div class="container">
+				<div class="row">
+					<h2>About The Channel</h2>
+					<a href="https://www.youtube.com/@superyoshi7777"><img class="lp" src="images/yt-logos/gta-v.jpg"></a>
+					<p>
+						I don't really remember when I made this channel, but the first video went up in February on 2019. I uploaded a few 
+						videos that year (most are privated now cause they are very bad), but I really started uploading around April of 2020. 
+						That run lasted until about mid-September, and had no consistency. I didn't really make any videos between then and 
+						about April 2021. I had a much shorter run of videos that time, only lasting about a month and a half. I basically 
+						didn't upload at all until I started making Let's Plays again (I'm hoping I don't fall into that hole again.) This time, 
+						I started putting videos out in late February 2023 and have been putting out at least 3 videos a week since.
+					</p>
+				</div>
+				<div class="row">
+					<h2>About Me</h2>
+					<img src="images/face.jpg">
+					<p>
+						My name is Jacob Moulton (I also go by Sy) and I'm 20 years old. I went to Delta College for 3 years and obtained an 
+						Associate's degree in Web Development. I plan to eventually resume my education and get a Bachelors' degree. I've 
+						been making videos on and off for over 4 years. After trying out a few different styles of content, I've settled into 
+						Let's Play content. I also occasionly vlog, but don't expect those too often.
+					</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2023</p>
+		</footer>
+	</body>
+	
+</html>
