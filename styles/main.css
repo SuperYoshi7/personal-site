@@ -232,6 +232,11 @@ footer {
 	width: 540px;
 }
 
+.img a img {
+	height: 304px;
+	width: auto;
+}
+
 #social {
 	color: white;
 	text-decoration: none;
