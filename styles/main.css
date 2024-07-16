@@ -259,6 +259,11 @@ section .schedule {
 	padding-top: 1em;
 }
 
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
 @media only screen and (max-width: 959px) {
 	.container {
 		flex-direction: column;
