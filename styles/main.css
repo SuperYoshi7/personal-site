@@ -100,9 +100,24 @@ h2 {
 	padding-bottom: 4em;
 }
 
+#main_h2 {
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+}
+
 h3 {
 	color: white;
 	padding-bottom: 1em;
+}
+
+#main_h3 {
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+
+.game-title {
+	padding-top: 1em;
+	margin-bottom: 2em;
 }
 
 ul {
@@ -167,7 +182,7 @@ section img {
 
 /* Div Styles */
 .container {
-	width: 100%;
+	width: 99%;
 	background-color: #505050;
 	display: flex;
 	flex-direction: row;
@@ -246,8 +261,8 @@ footer {
 	content: url("../images/social/youtube-after.png");
 }
 
-#twitter:hover {
-	content: url("../images/social/twitter-after.png");
+#bluesky:hover {
+	content: url("../images/social/bluesky-after.png");
 }
 
 #twitch:hover {
@@ -257,11 +272,6 @@ footer {
 section .schedule {
 	padding-bottom: 0px;
 	padding-top: 1em;
-}
-
-iframe {
-	width: 100%;
-	height: 100%;
 }
 
 @media only screen and (max-width: 959px) {
