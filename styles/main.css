@@ -18,10 +18,13 @@ body {
 }
 
 #nav_menu {
-	padding-bottom: 51px;
 	padding-left: 1.35em;
 	padding-right: 1.35em;
 	background-color: #a00000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
 }
 
 #nav_menu ul {
@@ -87,6 +90,10 @@ a:hover, a:focus {
 }
 
 /* Basic Elements */
+header {
+	margin-top: 2.5em;
+}
+
 h1 {
 	text-align: center;
 	color: white;
@@ -131,6 +138,7 @@ ul {
 section {
 	background-color: #505050;
 	text-align: center;
+	margin-bottom: 4em;
 }
 
 section p {
@@ -231,8 +239,9 @@ footer {
 	background-color: #a00000;
 	text-align: center;
 	color: white;
-	float: left;
-	clear: both;
+	position: fixed;
+	left: 0;
+	bottom: 0;
 	width: 100%;
 	padding-top: 1em;
 	padding-bottom: 1em;
